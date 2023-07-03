@@ -1,0 +1,12 @@
+
+
+.vio{
+   
+    margin: 1rem;
+   padding: 1rem;
+   background-color: rgb(215, 199, 230);
+   box-shadow: 0px 0px 6px 5px rgba(0,0,0,0.1);
+   width: 20rem;
+   text-align: center;
+   cursor: pointer;
+}

@@ -1,0 +1,79 @@
+
+
+
+.navbar {
+    background-color: rgb(201, 162, 238);
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #4e4848;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   
+  }
+  
+  .navbar::before,
+  .navbar::after {
+    content: "";
+    flex-grow: 1;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .navbar::before {
+    margin-right: 10px;
+   
+  }
+  
+  .navbar::after {
+    margin-left: 10px;
+  }
+  
+
+
+
+
+
+.lista {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .lista li {
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .lista li:hover {
+    background-color: #eaeaea;
+    cursor: pointer;
+  }
+  
+  .lista li::before {
+    content: "\2022";
+    color: #ff7f50;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .lista li:nth-child(2n) {
+    background-color: #f2f2f2;
+  }
+  
+  .lista li:last-child {
+    margin-bottom: 0;
+  }
+  
